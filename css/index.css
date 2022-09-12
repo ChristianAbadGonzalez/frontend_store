@@ -36,7 +36,7 @@ a{
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
 }
 
 .contenedor{
@@ -60,4 +60,75 @@ h1, h2, h3{
     text-align: center;
     color: var(--secundario);
     font-family: var(--fuentePrincipal);
+}
+
+/* Footer */
+.footer{
+    background-color: var(--primarioOscuro);
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.footer__texto{
+    font-family: var(--fuentePrincipal);
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+/* Header */
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo{
+    margin: 3rem 0;
+}
+
+/* Navegación Principal */
+.navegacion{
+    background-color: var(--primarioOscuro);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* Forma de separar elementos consecutivos -- No soportada por todos las plataformas o servidores web */
+
+}
+
+.navegacion__enlace{
+    font-family: var(--fuentePrincipal);
+    color: var(--blanco);
+    font-size: 3rem;
+}
+
+/* ANTIGUA FORMA DE SEPARAR ELEMENTOS
+.navegacion__enlace:last-of-type{
+    margin-right: 0;
+} 
+*/
+
+.navegacion__enlace--activo,
+.navegacion__enlace:hover{
+    color: var(--secundarioOscuro);
+}
+
+/* Productos */
+.producto{
+
+}
+
+.producto__imagen{
+
+}
+
+.producto__informacion{
+
+}
+
+.producto__nombre{
+
+}
+
+.producto__precio{
+    
 }
